@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://여기에-본인도메인.com/sitemap.xml

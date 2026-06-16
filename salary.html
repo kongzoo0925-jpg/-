@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>연봉 실수령액 계산기 2026 | 월급 실수령액 4대보험 세금 계산</title>
+<meta name="description" content="2026년 최신 요율 반영. 연봉을 입력하면 국민연금·건강보험·장기요양·고용보험·소득세를 제외한 월 실수령액을 1초 만에 계산합니다. 무료, 가입 없이 바로 사용.">
+<meta name="keywords" content="연봉 실수령액 계산기, 월급 실수령액, 실수령액 계산, 2026 4대보험, 연봉계산기">
+<link rel="canonical" href="https://여기에-본인도메인.com/salary.html">
+<meta property="og:title" content="연봉 실수령액 계산기 2026">
+<meta property="og:description" content="연봉 입력 한 번으로 월 실수령액과 공제 내역을 바로 확인하세요.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"연봉 실수령액 계산기 2026","applicationCategory":"FinanceApplication","operatingSystem":"All","offers":{"@type":"Offer","price":"0"}}
+</script>
+<!-- 애드센스 (승인 후 본인 코드로 교체)
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-내ID" crossorigin="anonymous"></script>
+-->
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav"><div class="nav-inner">
+  <a href="index.html" class="logo">계산<span>모음</span></a>
+  <div class="nav-links">
+    <a href="salary.html" class="active">연봉 실수령액</a>
+    <a href="severance.html">퇴직금</a>
+  </div>
+</div></nav>
+
+<div class="wrap">
+
+  <header>
+    <span class="badge">2026년 최신 요율 반영</span>
+    <h1>연봉 실수령액 계산기</h1>
+    <p>연봉을 입력하면 4대보험·세금을 뺀 월 실수령액을 바로 계산합니다</p>
+  </header>
+
+  <div class="ad-slot">광고 영역 (상단)</div>
+
+  <main class="card">
+    <div class="field">
+      <label for="salary">연봉 (세전, 원)</label>
+      <div class="input-row">
+        <input type="text" id="salary" inputmode="numeric" placeholder="예: 40,000,000" autocomplete="off">
+        <span class="unit">원</span>
+      </div>
+      <div class="quick" id="quick"></div>
+    </div>
+
+    <div class="opts">
+      <div class="opt">부양가족
+        <select id="dependents">
+          <option value="1">본인 1명</option><option value="2">2명</option>
+          <option value="3">3명</option><option value="4">4명</option>
+        </select>
+      </div>
+      <label class="chk"><input type="checkbox" id="meal" checked>식대 비과세 (월 20만)</label>
+    </div>
+
+    <div class="result">
+      <div class="rlabel">예상 월 실수령액</div>
+      <div class="big"><span id="net">0</span><span class="won">원</span></div>
+      <div class="sub" id="annual-net">연봉을 입력해 주세요</div>
+    </div>
+
+    <div class="bar" id="bar"><span style="width:100%;background:var(--teal)"></span></div>
+    <div class="legend" id="legend"></div>
+  </main>
+
+  <div class="ad-slot">광고 영역 (본문 중간)</div>
+
+  <section class="content">
+    <h2>실수령액이 연봉보다 적은 이유</h2>
+    <p>매달 받는 월급에서는 4대보험(국민연금·건강보험·장기요양보험·고용보험)과 소득세·지방소득세가 먼저 빠져나갑니다. 연봉을 12로 나눈 금액에서 이 공제 항목들을 제외한 것이 실제 통장에 들어오는 실수령액입니다.</p>
+
+    <h2>2026년 4대보험 요율 (근로자 부담분)</h2>
+    <table class="rate-table">
+      <thead><tr><th>항목</th><th>부과 기준</th><th>요율</th></tr></thead>
+      <tbody>
+        <tr><td>국민연금</td><td>기준소득월액</td><td>4.75%</td></tr>
+        <tr><td>건강보험</td><td>보수월액</td><td>3.595%</td></tr>
+        <tr><td>장기요양보험</td><td>건강보험료 기준</td><td>13.14%</td></tr>
+        <tr><td>고용보험</td><td>보수월액</td><td>0.9%</td></tr>
+      </tbody>
+    </table>
+    <div class="note">2026년부터 국민연금 9.0%→9.5%, 건강보험 7.09%→7.19%, 장기요양 12.95%→13.14%로 인상되었습니다. 국민연금은 기준소득월액 상한(637만 원)·하한(40만 원)이 적용됩니다.</div>
+
+    <h2>소득세는 어떻게 계산되나요</h2>
+    <p>이 계산기의 소득세는 근로소득공제·기본공제·보험료 공제를 반영한 연말정산 기준 추정치를 12로 나눈 값입니다. 매달 떼는 원천징수액은 국세청 간이세액표를 따르므로 월별로 다를 수 있고, 그 차액은 다음 해 연말정산에서 정산됩니다.</p>
+
+    <h2>자주 묻는 질문</h2>
+    <details><summary>비과세 식대는 왜 체크하나요?</summary><p>식대는 월 20만 원까지 비과세 처리되어 세금·일부 보험료 기준에서 제외됩니다. 회사가 식대를 비과세로 지급하면 체크 시 더 정확합니다.</p></details>
+    <details><summary>실제 월급명세서와 금액이 다른데요?</summary><p>비과세 항목, 부양가족 수, 추가 공제가 회사·개인마다 달라 차이가 납니다. 본 계산기는 일반적인 조건을 가정한 추정치입니다.</p></details>
+    <details><summary>퇴직금도 포함된 금액인가요?</summary><p>아니요. 입력한 연봉을 12개월로 나눈 기준입니다. <a href="severance.html" style="color:var(--teal-deep);text-decoration:underline">퇴직금은 별도 계산기</a>를 이용하세요.</p></details>
+  </section>
+
+  <div class="ad-slot">광고 영역 (하단)</div>
+
+  <footer>
+    본 계산기는 2026년 요율 기준 참고용입니다. 정확한 금액은 급여명세서 또는 국세청·4대보험 공단에서 확인하세요.<br>
+    <a href="index.html">홈</a> · <a href="severance.html">퇴직금 계산기</a>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  const RATE={pension:0.0475,health:0.03595,ltc:0.1314,emp:0.009};
+  const CAP=6370000,FLOOR=400000,MEAL=200000;
+  const $=id=>document.getElementById(id), fmt=n=>Math.round(n).toLocaleString('ko-KR');
+
+  function eid(g){if(g<=5e6)return g*.7;if(g<=15e6)return 3.5e6+(g-5e6)*.4;if(g<=45e6)return 7.5e6+(g-15e6)*.15;if(g<=1e8)return 12e6+(g-45e6)*.05;return Math.min(14.75e6+(g-1e8)*.02,2e7);}
+  function tax(b){const t=[[14e6,.06,0],[5e7,.15,1.26e6],[88e6,.24,5.76e6],[15e7,.35,15.44e6],[3e8,.38,19.94e6],[5e8,.40,25.94e6],[1e9,.42,35.94e6],[Infinity,.45,65.94e6]];for(const[c,r,d]of t)if(b<=c)return Math.max(b*r-d,0);return 0;}
+  function cred(c,g){let x=c<=1.3e6?c*.55:715000+(c-1.3e6)*.3,cap;if(g<=33e6)cap=74e4;else if(g<=7e7)cap=Math.max(74e4-(g-33e6)*.008,66e4);else if(g<=12e7)cap=Math.max(66e4-(g-7e7)*.5,5e5);else cap=Math.max(5e5-(g-12e7)*.5,2e5);return Math.min(x,cap);}
+
+  function calc(){
+    const annual=parseInt(($('salary').value||'0').replace(/[^0-9]/g,''))||0;
+    const dep=parseInt($('dependents').value), useMeal=$('meal').checked;
+    if(annual<=0){render(null);return;}
+    const mg=annual/12, tf=useMeal?Math.min(MEAL,mg):0, tm=mg-tf, at=tm*12;
+    const pb=Math.min(Math.max(tm,FLOOR),CAP);
+    const pen=pb*RATE.pension,hea=tm*RATE.health,ltc=hea*RATE.ltc,emp=tm*RATE.emp;
+    const ei=at-eid(at),pd=15e5*dep,ins=(pen+hea+ltc+emp)*12;
+    const base=Math.max(ei-pd-ins,0),ct=tax(base),cr=cred(ct,at),ann=Math.max(ct-cr,0);
+    const it=ann/12,lt=it*.1,ded=pen+hea+ltc+emp+it+lt,net=mg-ded;
+    render({net,annualNet:net*12,deduct:ded,gross:mg,items:[
+      {k:'net',val:net},{k:'pen',name:'국민연금',val:pen,c:'#5B8DEF'},
+      {k:'hea',name:'건강보험',val:hea,c:'#7C6FE8'},{k:'ltc',name:'장기요양',val:ltc,c:'#A88BEA'},
+      {k:'emp',name:'고용보험',val:emp,c:'#E89B5B'},{k:'tax',name:'소득세+지방세',val:it+lt,c:'#E0607A'}]});
+  }
+
+  let raf;
+  function animate(el,to){
+    if(matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=fmt(to);return;}
+    cancelAnimationFrame(raf);
+    const from=parseInt((el.textContent||'0').replace(/[^0-9]/g,''))||0,t0=performance.now();
+    (function s(t){const p=Math.min((t-t0)/450,1),e=1-Math.pow(1-p,3);el.textContent=fmt(from+(to-from)*e);if(p<1)raf=requestAnimationFrame(s);})(performance.now());
+  }
+
+  function render(d){
+    if(!d){$('net').textContent='0';$('annual-net').textContent='연봉을 입력해 주세요';
+      $('bar').innerHTML='<span style="width:100%;background:var(--teal)"></span>';$('legend').innerHTML='';return;}
+    animate($('net'),d.net);
+    $('annual-net').textContent=`연 실수령 ${fmt(d.annualNet)}원 · 월 공제 ${fmt(d.deduct)}원`;
+    $('bar').innerHTML=d.items.map(it=>{const w=(it.val/d.gross*100).toFixed(2);const c=it.k==='net'?'var(--teal)':it.c;return `<span style="width:${w}%;background:${c}"></span>`;}).join('');
+    let h='';d.items.forEach(it=>{if(it.k==='net')return;h+=`<div class="li"><span class="name"><span class="dot" style="background:${it.c}"></span>${it.name}</span><span class="val">-${fmt(it.val)}원</span></div>`;});
+    h+=`<div class="li total"><span class="name">월 실수령액</span><span class="val">${fmt(d.net)}원</span></div>`;
+    $('legend').innerHTML=h;
+  }
+
+  $('salary').addEventListener('input',e=>{const v=e.target.value.replace(/[^0-9]/g,'');e.target.value=v?parseInt(v).toLocaleString('ko-KR'):'';calc();});
+  $('dependents').addEventListener('change',calc);
+  $('meal').addEventListener('change',calc);
+  const presets=[2500,3000,3500,4000,5000,6000,8000,10000];
+  $('quick').innerHTML=presets.map(m=>`<button data-v="${m*10000}">${m>=10000?(m/10000)+'억':m+'만'}</button>`).join('');
+  $('quick').addEventListener('click',e=>{if(e.target.tagName!=='BUTTON')return;$('salary').value=parseInt(e.target.dataset.v).toLocaleString('ko-KR');calc();});
+})();
+</script>
+</body>
+</html>
