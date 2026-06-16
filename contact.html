@@ -38,8 +38,8 @@
   <header><h1>문의하기</h1><p>오류 신고, 계산기 추가 제안, 기타 문의를 남겨주세요</p></header>
 
   <main class="card">
-    <!-- ★ 설정 필요: action의 YOUR_FORM_ID를 본인 Formspree 폼 ID로 바꾸세요 (아래 설명 참고) -->
-    <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <!-- ★ 설정 필요: action의 https://formspree.io/f/mqeojdrl를 본인 Formspree 폼 ID로 바꾸세요 (아래 설명 참고) -->
+    <form id="contact-form" action="https://formspree.io/f/https://formspree.io/f/mqeojdrl" method="POST">
       <div class="form-field">
         <label for="name">이름 (선택)</label>
         <input type="text" id="name" name="name" placeholder="홍길동" autocomplete="off">
@@ -74,7 +74,7 @@
   form.addEventListener('submit', async function(e){
     e.preventDefault();
     // Formspree 미설정 상태 안내
-    if(form.action.indexOf('YOUR_FORM_ID')>-1){
+    if(form.action.indexOf('https://formspree.io/f/mqeojdrl')>-1){
       msg.style.display='block';msg.style.color='#E0607A';
       msg.textContent='문의 폼이 아직 설정되지 않았습니다. (관리자: Formspree 연동 필요)';
       return;
